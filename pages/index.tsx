@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import RecentExperience from '../src/components/catagory/RecentExperience'
+import Search from '../src/components/catagory/Search'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -12,18 +14,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-      <button className="btn">neutral</button>
-            <button className="btn btn-primary">primary</button>
-            <button className="btn btn-secondary rounded-full">secondary</button>
-            <button className="btn btn-accent">accent</button>
-            <button className="btn btn-ghost">ghost</button>
-            <button className="btn btn-link">link</button>
+      <main >
+        
       </main>
 
-      <footer className={styles.footer}>
-       
-      </footer>
+     
     </div>
   )
 }
