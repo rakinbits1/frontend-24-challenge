@@ -15,7 +15,7 @@ export const allCategories = [
       {
         name: 'Exchange',
         slug: 'exchange',
-        imgSrc: "image/logo-2.png",
+        imgSrc: "image/upIndicator.png",
         darkcolor:"#587BE0",
         lightcolor:"#EAEFFF",
         subcategories: [
@@ -34,7 +34,7 @@ export const allCategories = [
       {
         name: 'Games',
         slug: 'games',
-        imgSrc: "image/logo-2.png",
+        imgSrc: "image/games.png",
         darkcolor:"#414047",
         lightcolor:"#F5F5F5",
         subcategories: [
@@ -53,7 +53,7 @@ export const allCategories = [
       {
         name: 'Market Places',
         slug: 'market_place',
-        imgSrc: "image/logo-2.png",
+        imgSrc: "image/market.png",
         darkcolor:"#34AE91",
         lightcolor:"#E2F9F3",
         subcategories: [
@@ -74,7 +74,7 @@ export const allCategories = [
       {
         name: 'Defi',
         slug: 'defi',
-        imgSrc: "image/logo-2.png",
+        imgSrc: "image/defi.png",
         darkcolor:"#F98F54",
         lightcolor:"#FFF3EC",
         subcategories: [
@@ -93,7 +93,7 @@ export const allCategories = [
       {
         name: 'Collectible',
         slug: 'collectible',
-        imgSrc: "image/logo-2.png",
+        imgSrc: "image/collect.png",
         darkcolor:"#54AAF9",
         lightcolor:"#EBF5FF",
         subcategories: [
@@ -112,6 +112,7 @@ export const allCategories = [
       {
         name: 'Utilities',
         slug: 'utilities',
+        imgSrc: "image/collect.png",
         darkcolor:"#885FFF",
         lightcolor:"#F0EBFF",
         subcategories: [
@@ -132,6 +133,58 @@ export const allCategories = [
   },
   
 
+];
+
+export const activities = [
+  {
+    id:1,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 2,
+  },
+  {
+    id:2,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 8,
+  },
+  {
+    id:3,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 4,
+  },
+  {
+    id:3,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 5,
+  },
+  {
+    id:4,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 4,
+  },
+  {
+    id:6,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 3,
+  },
+  {
+    id:7,
+    title: 'Any',
+    description:'',
+    imgSrc: "",
+    duration: 2,
+  },
 ];
 
 

@@ -5,7 +5,7 @@ const catagory = () => {
     return (
         <div>
 
-            <RecentExperience  />
+            {/* <RecentExperience  /> */}
             
         </div>
     );

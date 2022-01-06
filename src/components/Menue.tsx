@@ -9,7 +9,7 @@ export default function HeaderMenu() {
       <Menu as="div" className="relative inline-block text-left w-full">
         <div className='flex '>
           <Menu.Button className="inline-flex justify-center w-full  border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 rounded-full">
-          <img src='image/logo-3.png'  className='h-6 w-6 ring-2 rounded-full gap-4 absolute left-2'/> Johndoe.near
+          <img src='image/logo-3.png'  className='h-6 w-6 ring-offset-black  ringoffset-4 ring-1  rounded-full gap-4 absolute left-2'/> Johndoe.near
          <RiArrowDropDownFill className="-mr-1 ml-2 h-5 w-5 absolute right-2" aria-hidden="true" />
            {/* <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" /> */}
         </Menu.Button>

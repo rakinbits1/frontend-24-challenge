@@ -3,6 +3,7 @@ import Search from './Search';
 import { IoChevronForwardSharp } from "react-icons/io5";
 import PopularCatagories from './PopularCatagories';
 import PopularExperience from './PopularExperience';
+import Link from 'next/link'
 
 const RecentExperience = () => {
     return (
@@ -32,24 +33,26 @@ const RecentExperience = () => {
                     </div>
 
                 </div>
-                <div className='grid grid-cols-7 mt-4 gap-4 items-center '>
-                    <div className='col-span-2 rounded-lg' >
+               <Link href="/documentSign">
+               <div className='grid grid-cols-7 mt-4 gap-4 items-center '>
+                   
+                   <div className='col-span-2 rounded-lg' >
+                       <img src='image/logo-2.png' alt='error'  className='rounded-lg' style={{width:"93px" , height:"96px"}}/>
+                   </div>
+                   <div className='col-span-4 '>
+                       <p className='font-semibold text-base'>DeFi Sign</p>
+                       <p style={{fontSize:"12px" ,fontWeight:"normal" ,color:"#6F6E73",marginTop:"5px"}}> Swap you digital assets</p>
+                       <a href='#'  style={{fontSize:"12px" ,fontWeight:"normal" ,color:"#587BE0"}}>+1K users</a>
 
-                        <img src='image/logo-2.png' alt='error'  className='rounded-lg' style={{width:"93px" , height:"96px"}}/>
+                   </div>
+                   <div className='col-span-1 '>
+                       <IoChevronForwardSharp  className='text-lg' style={{color:"#6F6E73"}}/>
 
-                    </div>
-                    <div className='col-span-4 '>
-                        <p className='font-semibold text-base'>DeFi Swap</p>
-                        <p style={{fontSize:"12px" ,fontWeight:"normal" ,color:"#6F6E73",marginTop:"5px"}}> Swap you digital assets</p>
-                        <a href='#'  style={{fontSize:"12px" ,fontWeight:"normal" ,color:"#587BE0"}}>+1K users</a>
+                   </div>
+                   
 
-                    </div>
-                    <div className='col-span-1 '>
-                        <IoChevronForwardSharp  className='text-lg' style={{color:"#6F6E73"}}/>
-
-                    </div>
-
-                </div>
+               </div>
+               </Link>
 
             </div>
 

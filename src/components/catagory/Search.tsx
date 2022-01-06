@@ -1,7 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { BiFilterAlt } from "react-icons/bi";
+import MyModal from "./MyModal"
 
 const Search = () => {
+
+    let [isOpen, setIsOpen] = useState(false)
+
     return (
         <div >
 
@@ -16,8 +20,10 @@ const Search = () => {
                    
                 </div>
                 <div className='col-span-1'>
-                  <BiFilterAlt  className='text-2xl' style={{color:"#6F6E73"}}/>
+                  <BiFilterAlt onClick={()=>setIsOpen(true)}   className='text-2xl' style={{color:"#6F6E73"}}/>
                 </div>
+                <MyModal isOpen={isOpen}  setIsOpen={setIsOpen}/>
+
 
             </div>
             

@@ -24,7 +24,7 @@ const PopularCatagories = () => {
                     return(
                         <div className='p-4 rounded-lg' style={{background: `${item.lightcolor}`}}>
                         <div className='h-12 w-12 rounded-full flex justify-center items-center' style={{background: `${item.darkcolor}`}}> 
-                          <img src='image/upIndicator.png' alt='error'  className='rounded-lg h-10 w-10'   />
+                          <img src={item.imgSrc} alt='error'  className='rounded-lg h-8 w-8'   />
                         </div>
                         <div className='flex mt-4 items-center justify-between'>
                             <p  className='font-semibold text-lg'  style={{color:"#6F6E73"}}> {item.name}</p>
