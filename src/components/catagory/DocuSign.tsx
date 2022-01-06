@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React, { useState } from 'react';
 import { RiShareBoxLine } from "react-icons/ri";
 import { ImArrowUpRight2 } from "react-icons/im";

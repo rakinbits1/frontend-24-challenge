@@ -11,8 +11,8 @@ const OverView = () => {
                         <p className='font-semibold text-base' style={{ color: allColors.blackDark }}>Overview</p>
                     </div>
                     <div className="collapse-content ">
-                        <p>Collapse content reveals with focus. If you add a checkbox, you can control it using checkbox instead of focus. Or you can force-open/force-close using
-
+                        <p>
+                        it is easy to electronically sign, manage and distribute all your contracts and documents safely, securely, anywhere, anytime- paperlessly.
                         </p>
                         <div className='flex gap-2 items-center mt-4'>
                             <img src='image/world.png' alt='error' style={{ width: "22px", height: "22px" }} />

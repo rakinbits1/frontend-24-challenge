@@ -28,7 +28,7 @@ const RecentExperience = () => {
 
                     </div>
                     <div className='col-span-1 '>
-                        <IoChevronForwardSharp  className='text-lg' style={{color:"#6F6E73"}}/>
+                        <IoChevronForwardSharp  className='text-lg absolute right-4 lg:right-60' style={{color:"#6F6E73"}}/>
 
                     </div>
 
@@ -46,7 +46,7 @@ const RecentExperience = () => {
 
                    </div>
                    <div className='col-span-1 '>
-                       <IoChevronForwardSharp  className='text-lg' style={{color:"#6F6E73"}}/>
+                       <IoChevronForwardSharp  className='text-lg absolute right-4 lg:right-60' style={{color:"#6F6E73"}}/>
 
                    </div>
                    

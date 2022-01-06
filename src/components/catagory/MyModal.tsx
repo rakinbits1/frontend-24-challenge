@@ -2,7 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import { MdOutlineClose } from "react-icons/md";
 import { allColors } from '../constants/color';
-import { allCategories } from '../constants/staticData'
+import { allCategories } from '../../Data/staticData'
 
 interface Props {
   setIsOpen: Function
@@ -75,9 +75,9 @@ export default function MyModal(props: Props) {
                     <p className='text-base font-semibold' style={{ color: allColors.blackDark }}>All Experiences</p>
                   </div>
 
-                  {allCategories[0].subcategories.map((item)=>{
+                  {allCategories[0].subcategories.map((item, index)=>{
                     return(
-                      <div className='grid grid-cols-8 items-center gap-2 mt-4'>
+                      <div  key={index} className='grid grid-cols-8 items-center gap-2 mt-4'>
 
                     <div className='col-span-1'>
 

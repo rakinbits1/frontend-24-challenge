@@ -1,4 +1,4 @@
-
+//
 import styled from 'styled-components';
 
 import {allColors} from '../constants/color';
@@ -21,7 +21,7 @@ export const NavMobile = styled.div`
 `;
 
 
-export const TabMobile = styled.button`
+export const TabMobile= styled.button`
   width: 100%;
   position: relative;
   display: inline-flex;

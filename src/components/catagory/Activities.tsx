@@ -1,6 +1,6 @@
 import React from 'react';
 import { allColors } from '../constants/color';
-import { activities } from '../constants/staticData';
+import { activities } from '../../Data/staticData';
 
 const Activities = () => {
 
@@ -18,7 +18,7 @@ const Activities = () => {
 
             {activities.map((item, index) => {
                 return (
-                    <div className='grid grid-cols-6 items-center mt-4'>
+                    <div key={index} className='grid grid-cols-6 items-center mt-4'>
                         <div className='col-span-1'>
                             <img src='image/logo-3.png' alt='error' className='w-12 h-12' />
                         </div>

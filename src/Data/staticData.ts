@@ -1,9 +1,4 @@
 
-// import category1 from 'image/logo-1.png';
-// import category2 from 'image/logo-2.png';
-// import category3 from 'image/logo-3.png';
-// import category4 from 'image/settings.png';
-// import category5 from 'image/vector-1.png';
 
 
 export const allCategories = [
